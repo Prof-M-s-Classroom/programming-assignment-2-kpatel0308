@@ -1,14 +1,6 @@
-cmake_minimum_required(VERSION 3.24)
-project(CS210PA2)
+cmake_minimum_required(VERSION 3.30)
+project(untitled10)
 
-# Use modern C++ standard
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD 20)
 
-# Include directories
-include_directories(.)
-
-# Source files (only .cpp, no .h files)
-add_executable(CS210PA2
-        main.cpp
-        Story.cpp)
+add_executable(untitled10 Patel_KhushRPG/main.cpp)

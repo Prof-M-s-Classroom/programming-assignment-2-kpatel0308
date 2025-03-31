@@ -3,4 +3,6 @@
 3 | You go right and find an old cabin. | 5 | 6
 4 | You swim across the river and find a treasure chest. | -1 | -1
 5 | You find a hidden passageway that leads to a secret room. | 7 | -1
-6 | The cabin is empty. You find a trapdoor leading downwards. | -1
+6 | The cabin is empty. You find a trapdoor leading downwards. | -1 | 7
+7 | You discover an underground library filled with magical books. | -1 | -1
+8 | A strange wind pulls you toward a glowing portal. | 7 | -1
