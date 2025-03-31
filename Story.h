@@ -3,6 +3,7 @@
 
 #include <string>
 using namespace std;
+
 class Story {
 public:
     string description;
@@ -10,11 +11,12 @@ public:
     int leftEventNumber;
     int rightEventNumber;
 
-    // Default constructor
-    Story();
+    //  Default constructor (required for GameDecisionTree<T>)
+    Story() : eventNumber(-1), description(""), leftEventNumber(-1), rightEventNumber(-1) {}
 
-    // Parameterized constructor
-    Story(string desc, int num, int leftNum, int rightNum);
+    // Existing parameterized constructor
+    Story(int num, const string& desc, int left, int right)
+        : eventNumber(num), description(desc), leftEventNumber(left), rightEventNumber(right) {}
 };
 
-#endif // STORY_H
+#endif
